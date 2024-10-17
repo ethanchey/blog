@@ -2,8 +2,8 @@
 const siteMetadata = {
   title: 'Ethan Chey\'s Blog',
   author: 'Ethan Chey',
-  headerTitle: 'My Blog',
-  description: 'A blog focused on the realm of computer science and linguistics',
+  headerTitle: 'eBlog',
+  description: 'A blog focused on the realm of computer science and linguistics. eBlog = Ethan + Blog',
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://blog-eight-iota-90.vercel.app/',
