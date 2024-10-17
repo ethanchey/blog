@@ -104,7 +104,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                 {` • `}
                 <a>Published on </a>
                 <time dateTime={date}>
-                      {new Date(date).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
+                  {new Date(date).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
                 </time>
               </div>
               {/*{siteMetadata.comments && (
