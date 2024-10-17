@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Ethan Chey\'s Blog',
+  title: 'eBlog | Ethan Chey\'s Blog',
   author: 'Ethan Chey',
   headerTitle: 'eBlog',
   description: 'A blog focused on the realm of computer science and linguistics. eBlog = Ethan + Blog',
