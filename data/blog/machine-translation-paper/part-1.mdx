@@ -1,0 +1,65 @@
+---
+title: "A Comprehensive Study on Machine Translation - Paper"
+date: '2024-10-22'
+lastmod: '2024-10-22'
+tags: ['machine-translation',]
+draft: false
+summary: 'The full research paper!'
+images: ['/static/images/word-counter.png']
+authors: ['default']
+layout: PostLayout
+canonicalUrl:
+---
+
+# Balancing Benefits and Implications: A Comprehensive Study on Machine Translation
+
+Note: This paper has been formatted to better suit a blog-style format. Pictures and other graphics have been added by me. I hope you find this paper informative and enjoyable to read!
+
+---
+
+## Section 1: Introduction
+
+    ### 1.1 Background
+
+        Translation, or expressing words and phrases in a different language, as a concept and industry has gained popularity in recent years. However, the idea of translating words and phrases into different languages has existed for centuries, spawning from the human desire to connect with others. The process of translation has changed with new technologies; before computers were widely adopted, hiring human translators were the only way to get a reliable translation. Other methods existed, such as using dictionaries to translate small phrases, which worked most of the time. However, any attempt to translate a long sentence or complex phrase often results in mistranslations, as dictionaries do not always provide perfect translations. Additionally, bias would always be an issue, as translators and dictionaries may provide translations that, for example, favor masculine words over feminine ones.
+
+        <figure>
+            <img src="/static/images/st-jerome.png" alt="St. Jerome, the father of translation" />
+            <figcaption>Pictured is St. Jerome, the believed *Father of Translation*. He translated the bible into Latin, one of the earliest translations. Translation as a concept has stretched back centuries - St. Jerome translated the Bible around 400 AD! Picture from [St. John's Anglican Church](https://www.stjohnscanton.org/for-all-the-saints-saint-jerome-and-william-tyndale-translators-of-the-bible/)</figcaption>
+    </figure>
+
+        Machine translation is a relatively new development, with each iteration improving translational accuracy. The most recent and popular of these developments has been neural machine translation, coming from the field of deep learning. Despite the improved accuracy, the issues discussed with human translation – mistranslations and bias – are as present as ever in machine translation. In addition, machine translation comes with several ethical concerns that may make the true value of machine translation unclear. As such, the purpose of this paper is to focus on the benefits and drawbacks of machine translation tools to evaluate their usefulness. It will also address neural machine translation and its relevancy in the field of translation.
+
+    ### 1.2 What are Machine Translation Tools?
+
+        Machine translation tools are a subset of computational linguistics tools, or computer-based tools that involve the study of language. Machine translation itself is like regular, human translation – it is the process of a computer translating a word or phrase from language to language. These tools use massive amounts of language data like data sets and rules provided by humans to build models. As with all technology, the effectiveness and quality of the models can vary significantly. A popular example of a machine translation tool is Google Translate, which can translate text, images, and more.
+
+## Section 2: Machine Translation: A Brief History
+
+    ### 2.1 Approaches to Machine Translation
+    
+        There are several approaches to machine translation. In “Progress in Machine Translation,” Haifeng Wang and a group of researchers at Baidu Inc. discuss these approaches, starting with a more primitive approach called rule-based machine translation (RBMT). Until the 1990s, RBMT – machine translation based on dictionaries and rules by experts in translation – was dominant. The downsides of RBMT were maintenance and labor issues, as keeping translations accurate required experts to spend time constantly updating rules (Wang et al. 143). This can be extremely time-consuming and unsustainable on a large scale. For instance, adding a new language to a system using RBMT requires making an entire new set of rules and constantly refining it to improve accuracy. Despite this flaw, companies like Google adopted systems built on RBMT to power their translation tools (Wang et al. 143).
+
+        In the 2000s, RBMT lost its footing to “corpus-based methods” or methods of translations that involve collections of texts (Wang et al. 143). Three methods emerged, each with its own strengths, weaknesses, and adoption rates. Two of these methods were example-based machine translation in the 1980s and statistical machine translation in the 1990s. These built on each other, improving the accuracy and efficiency but with some tradeoffs. The third and most significant method is neural machine translation (NMT), which was recently kickstarted thanks to a key development: deep learning (Wang et al. 144).
+
+    ### 2.2 Deep Learning and Machine Translation
+
+        In 2014, using neural network models for translation was proposed (Wang et al. 144). Neural network models are subsets of deep learning, which itself is a subset of machine learning. Machine learning is the field of developing algorithms that can learn from training data. It powers several new tools like the models mentioned earlier and artificial intelligence tools. Many companies quickly adopted neural machine translation, like Google and Baidu. It also resulted in simultaneous translation, or real-time translation of words and phrases. Simultaneous translation makes use of NMT to translate spoken words in real-time, which can replace simultaneous interpreters (Wang et al. 144). Contrary to other methods, NMT forms translated sentences word by word by using neural networks – where computers learn like human brains. It also doesn’t need human-made rules like RBMT, as it learns directly from the training data (Wang et al. 145).
+
+## Section 3: Ethical Issues in Computational Linguistics
+
+    ### 3.1 Applications
+    
+        In their study of ethical practices in Natural Language Processing, Jochen L. Leidner and Vassilis Plachouras discuss various scenarios of ethical issues in computational linguistics. In UNIX, an operating system first developed in the 1980s, a spell command was added early on to print out words not found in its database so the user could correct them. The command also emailed unknown words to the developer of the command so they could be added to the database (Leidner and Plachouras 33). While this development was innovative, it was also questionable privacy-wise, as the command would email the developer automatically, sometimes even without the user’s knowledge.
+
+        In a study discussing more recent ethical issues with bots, an incident was cited that took place on Twitter with the hashtag #YaMeCance, or “I’m still tired” in English (Thieltges et al. 253). The hashtag was originally a place for people to spread information and organize protests against corruption and violence in Mexico, but chatbots on Twitter impacted political discussion by influencing conversations and making any discourse impossible. This example raises the question: how can there be a guarantee of genuine conversation on social media sites? If bots can so easily influence conversations online, like with #YaMeCance, then there is no guarantee that every interaction on these sites are with other humans. As bots continue to improve with new technology, the line between humans and bots will be harder and harder to distinguish.
+
+        This also raises the question of discrimination, in which a system only works for certain demographics, intentional or not. As discussed in Dong et al., this can include linguistic discrimination, in which the output of large-language models (LLMs) that power tools like machine translation will vary based on the language. Although applications powered by LLMs typically support many languages, they may work better with certain languages than others (Dong et al. 3). Discrimination is yet another ethical issue in the field of linguistics, and limitations of such systems should be communicated to the user to prevent it (Leidner and Plachouras 34).
+
+    ### 3.2 Research
+
+        Alexandra D’Arcy and Emily M. Bender, who work in linguistics departments at the University of Victoria and University of Washington, respectively, discuss conducting ethical research in “Ethics in Linguistics.” In all forms of research, regulatory bodies exist to balance the benefits of research with minimizing potential harm. Human ethics are overseen by committees ranging from local to national scope (D’Arcy and Bender 52). In addition, linguistics research is almost always low risk – but low risk does not mean no risk (D’Arcy and Bender 53). Research in the field of linguistics is certainly easier than research involving more sensitive topics like violence or politics, but that is not a justification for not having any regulations. Therefore, ethical research must still be conducted and assessed by appropriate bodies and committees. Even with good intentions, harm can still be done; regulatory oversight and knowledge of ethics help minimize the potential for harm, ethics violations, or other conflicts of interest (D’Arcy and Bender 53).
+
+        Leidner and Plachouras continue their study by discussing other unethical research methods. Research should always be done as ethically as possible – whether that involves hiring people for the study instead of crowdsourcing, or communicating to people what the study involves and getting consent. Crowdsourcing itself allows mass acquisition of data for linguistic studies, but in essence is working for free, with some labeling it as slavery (Leidner and Plachouras 35).
+
+        Fort et al. (2011) further discusses crowdsourcing in linguistics through Amazon Mechanical Turk (MTurk), a crowdsourcing platform by Amazon. Authors using MTurk can get results for extremely cheap, usually in the cents range (Fort et al. 414). This translates to about \$2 an hour, and combined with the fact that 20\% of people using MTurk use it as their primary income source, MTurk is considered highly unethical (Fort et al. 417). This results in a complex issue for the platform: increasing rewards may result in spammers giving bad answers, but keeping the same low rewards will eventually result in people leaving the platform as a $2-an-hour wage is unsustainable for survival (Fort et al. 418). Regardless, the more MTurk is adopted, the more their low rewards will become the standard, eventually making underpaying workers the norm. This will not only cause more unethical research to be conducted but also makes ethical research comparatively expensive and thus less attractive to researchers (Fort et al. 419).
