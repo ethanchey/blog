@@ -1,0 +1,195 @@
+---
+title: "A Comprehensive Study on Machine Translation - Paper"
+date: '2024-10-22'
+lastmod: '2024-12-6'
+tags: ['machine-translation',]
+draft: false
+summary: 'The full research paper!'
+images: ['/static/images/word-counter.png']
+authors: ['default']
+layout: PostLayout
+canonicalUrl:
+---
+
+# <center>Balancing Benefits and Implications: A Comprehensive Study on Machine Translation</center>
+
+Note: This paper has been formatted to better suit a blog-style format. Pictures and other graphics have been added by me. I hope you find this paper informative and enjoyable to read!
+
+---
+
+## <ins>Section 1: Introduction</ins>
+
+    ### 1.1 Background
+
+        Translation, or expressing words and phrases in a different language, as a concept and industry has gained popularity in recent years. However, the idea of translating words and phrases into different languages has existed for centuries, spawning from the human desire to connect with others. The process of translation has changed with new technologies; before computers were widely adopted, hiring human translators were the only way to get a reliable translation. Other methods existed, such as using dictionaries to translate small phrases, which worked most of the time. However, any attempt to translate a long sentence or complex phrase often results in mistranslations, as dictionaries do not always provide perfect translations. Additionally, bias would always be an issue, as translators and dictionaries may provide translations that, for example, favor masculine words over feminine ones.
+
+        <figure>
+            <img src="/static/images/st-jerome.png" alt="St. Jerome, the father of translation" />
+            <figcaption>Pictured is St. Jerome, the believed *Father of Translation*. He translated the bible into Latin, one of the earliest translations. Translation as a concept has stretched back centuries - St. Jerome translated the Bible around 400 AD! Picture from [St. John's Anglican Church](https://www.stjohnscanton.org/for-all-the-saints-saint-jerome-and-william-tyndale-translators-of-the-bible/)</figcaption>
+    </figure>
+
+        Machine translation is a relatively new development, with each iteration improving translational accuracy. The most recent and popular of these developments has been neural machine translation, coming from the field of deep learning. Despite the improved accuracy, the issues discussed with human translation – mistranslations and bias – are as present as ever in machine translation. In addition, machine translation comes with several ethical concerns that may make the true value of machine translation unclear. As such, the purpose of this paper is to focus on the benefits and drawbacks of machine translation tools to evaluate their usefulness. It will also address neural machine translation and its relevancy in the field of translation.
+
+    ### 1.2 What are Machine Translation Tools?
+
+        Machine translation tools are a subset of computational linguistics tools, or computer-based tools that involve the study of language. Machine translation itself is like regular, human translation – it is the process of a computer translating a word or phrase from language to language. These tools use massive amounts of language data like data sets and rules provided by humans to build models. As with all technology, the effectiveness and quality of the models can vary significantly. A popular example of a machine translation tool is Google Translate, which can translate text, images, and more.
+
+## <ins>Section 2: Machine Translation: A Brief History</ins>
+
+    ### 2.1 Approaches to Machine Translation
+    
+        There are several approaches to machine translation. In “Progress in Machine Translation,” Haifeng Wang and a group of researchers at Baidu Inc. discuss these approaches, starting with a more primitive approach called rule-based machine translation (RBMT). Until the 1990s, RBMT – machine translation based on dictionaries and rules by experts in translation – was dominant. The downsides of RBMT were maintenance and labor issues, as keeping translations accurate required experts to spend time constantly updating rules (Wang et al. 143). This can be extremely time-consuming and unsustainable on a large scale. For instance, adding a new language to a system using RBMT requires making an entire new set of rules and constantly refining it to improve accuracy. Despite this flaw, companies like Google adopted systems built on RBMT to power their translation tools (Wang et al. 143).
+
+        In the 2000s, RBMT lost its footing to “corpus-based methods” or methods of translations that involve collections of texts (Wang et al. 143). Three methods emerged, each with its own strengths, weaknesses, and adoption rates. Two of these methods were example-based machine translation in the 1980s and statistical machine translation in the 1990s. These built on each other, improving the accuracy and efficiency but with some tradeoffs. The third and most significant method is neural machine translation (NMT), which was recently kickstarted thanks to a key development: deep learning (Wang et al. 144).
+
+    ### 2.2 Deep Learning and Machine Translation
+
+        In 2014, using neural network models for translation was proposed (Wang et al. 144). Neural network models are subsets of deep learning, which itself is a subset of machine learning. Machine learning is the field of developing algorithms that can learn from training data. It powers several new tools like the models mentioned earlier and artificial intelligence tools. Many companies quickly adopted neural machine translation, like Google and Baidu. It also resulted in simultaneous translation, or real-time translation of words and phrases. Simultaneous translation makes use of NMT to translate spoken words in real-time, which can replace simultaneous interpreters (Wang et al. 144). Contrary to other methods, NMT forms translated sentences word by word by using neural networks – where computers learn like human brains. It also doesn’t need human-made rules like RBMT, as it learns directly from the training data (Wang et al. 145).
+
+## <ins>Section 3: Ethical Issues in Computational Linguistics</ins>
+
+    ### 3.1 Applications
+    
+        In their study of ethical practices in Natural Language Processing, Jochen L. Leidner and Vassilis Plachouras discuss various scenarios of ethical issues in computational linguistics. In UNIX, an operating system first developed in the 1980s, a spell command was added early on to print out words not found in its database so the user could correct them. The command also emailed unknown words to the developer of the command so they could be added to the database (Leidner and Plachouras 33). While this development was innovative, it was also questionable privacy-wise, as the command would email the developer automatically, sometimes even without the user’s knowledge.
+
+        In a study discussing more recent ethical issues with bots, an incident was cited that took place on Twitter with the hashtag #YaMeCance, or “I’m still tired” in English (Thieltges et al. 253). The hashtag was originally a place for people to spread information and organize protests against corruption and violence in Mexico, but chatbots on Twitter impacted political discussion by influencing conversations and making any discourse impossible. This example raises the question: how can there be a guarantee of genuine conversation on social media sites? If bots can so easily influence conversations online, like with #YaMeCance, then there is no guarantee that every interaction on these sites are with other humans. As bots continue to improve with new technology, the line between humans and bots will be harder and harder to distinguish.
+
+        This also raises the question of discrimination, in which a system only works for certain demographics, intentional or not. As discussed in Dong et al., this can include linguistic discrimination, in which the output of large-language models (LLMs) that power tools like machine translation will vary based on the language. Although applications powered by LLMs typically support many languages, they may work better with certain languages than others (Dong et al. 3). Discrimination is yet another ethical issue in the field of linguistics, and limitations of such systems should be communicated to the user to prevent it (Leidner and Plachouras 34).
+
+    ### 3.2 Research
+
+        Alexandra D’Arcy and Emily M. Bender, who work in linguistics departments at the University of Victoria and University of Washington, respectively, discuss conducting ethical research in “Ethics in Linguistics.” In all forms of research, regulatory bodies exist to balance the benefits of research with minimizing potential harm. Human ethics are overseen by committees ranging from local to national scope (D’Arcy and Bender 52). In addition, linguistics research is almost always low risk – but low risk does not mean no risk (D’Arcy and Bender 53). Research in the field of linguistics is certainly easier than research involving more sensitive topics like violence or politics, but that is not a justification for not having any regulations. Therefore, ethical research must still be conducted and assessed by appropriate bodies and committees. Even with good intentions, harm can still be done; regulatory oversight and knowledge of ethics help minimize the potential for harm, ethics violations, or other conflicts of interest (D’Arcy and Bender 53).
+
+        Leidner and Plachouras continue their study by discussing other unethical research methods. Research should always be done as ethically as possible – whether that involves hiring people for the study instead of crowdsourcing, or communicating to people what the study involves and getting consent. Crowdsourcing itself allows mass acquisition of data for linguistic studies, but in essence is working for free, with some labeling it as slavery (Leidner and Plachouras 35).
+
+        Fort et al. (2011) further discusses crowdsourcing in linguistics through Amazon Mechanical Turk (MTurk), a crowdsourcing platform by Amazon. Authors using MTurk can get results for extremely cheap, usually in the cents range (Fort et al. 414). This translates to about \$2 an hour, and combined with the fact that 20\% of people using MTurk use it as their primary income source, MTurk is considered highly unethical (Fort et al. 417). This results in a complex issue for the platform: increasing rewards may result in spammers giving bad answers, but keeping the same low rewards will eventually result in people leaving the platform as a $2-an-hour wage is unsustainable for survival (Fort et al. 418). Regardless, the more MTurk is adopted, the more their low rewards will become the standard, eventually making underpaying workers the norm. This will not only cause more unethical research to be conducted but also makes ethical research comparatively expensive and thus less attractive to researchers (Fort et al. 419).
+
+## <ins>Section 4: The Present Study</ins>
+
+    ### 4.1 Problems with Machine Translation Tools
+
+        Common issues throughout the field of computer science include violations of privacy, the leakage of private information, and more. These issues are likewise partly seen in computational linguistics and even machine translation tools. As discussed earlier, the main problems with these tools are usually ethical and involve quality, accuracy, and bias. Bias can be affected by the training data, or how a language is translated by a certain machine translation tool. A deeper dive into the problems with machine translation tools and their causes will be conducted later in the paper.
+
+    ### 4.2 The Research Question
+
+        Machine translation tools are marvels of computer science. They started simple – basic rules and dictionaries – but soon incorporated more technology, resulting in the current landscape today. Despite all the innovations with different methods of machine translation like NMT, numerous issues involving bias and accuracy are still present and grow with every new advancement. As such, the question is raised: when taking into consideration both the benefits and drawbacks of using machine translation tools, are they better than more traditional methods of translation like a human translator?
+
+    ### 4.3 Methodology
+
+        To evaluate the true value of machine translation tools, the benefits and drawbacks must be assessed and then compared. Examples will be pulled from various studies to illustrate these benefits and concerns related to bias and accuracy. These will be used to conduct a comparative and quantitative analysis of the practical benefits and ethical concerns, before making a conclusion assessing the role of machine translation tools in the field of translation.
+
+## <ins>Section 5: Benefits of Machine Translation Tools</ins>
+
+    ### 5.1 Practical Benefits
+
+        Despite all the potential for ethical issues, machine translation tools have some obvious benefits. The benefit seen by most people is that these tools allow you to speak with others in a different language easily. Some more real-world benefits include cost-effectiveness – machine translation tools are significantly cheaper to use than a human translator. Plus, translation tools can work with a large amount of data quickly, which can be useful for some professions. Finally, it allows for a “starting point” when translating. Instead of translating completely from scratch, machine translation tools can do an initial translation that can then be modified or adjusted as needed.
+
+    ### 5.2 Applications in Various Fields
+
+        Machine translation tools can be used as an assistant in many fields. For example, tools are used in education to teach and evaluate students’ uses of new languages (Deng and Yu 2). For teachers, integrating machine translation tools into a curriculum usually means teaching the ethics of using the tools and how to use them properly (Deng and Yu 8). In one such case also discussed by Deng and Yu, students compared their translations of an essay to the machine translation, which is an ethical use of machine translation.
+
+        Another use of machine translation tools is in healthcare, where the tools are used for communication (Mehandru et al. 2017). Having a language barrier can impact the quality of care given, as well as the cost. Machine translation was typically used in cases of limited time, as getting an interpreter can waste invaluable time for the physician. In addition, an interpreter for a less spoken language may be unavailable or not even exist, allowing machine translation to help fill this gap (Mehandru et al. 2019). Other uses for machine translation in nursing include translating articles so nurses and physicians can understand (Deng et al. 2).
+
+        The final application of machine translation that will be discussed is in business. Machine translation tools can be used to translate large volumes of business papers quickly (Sakre 34). This can be used to improve employee understanding of internal documents like presentations or for customer-facing papers (Sakre 38). Customization of customer service is also possible with machine translation by changing the language used (Sakre 34).
+
+## <ins>Section 6: Concerns of Machine Translation Tools</ins>
+
+    ### 6.1 Quality and Accuracy
+
+        Despite all the developments regarding machine translation and all its forms, the quality of translations from machine translation tools still does not rival human translations. Machine translations have quickly caught up, but human translators can have a deeper understanding of phrases than a machine can. In a study assessing the quality of machine translation compared to human translation, machine translation systems were shown to mistranslate significantly more concepts than human translators (Koponen 7). When translating Koponen’s test passages, human translators added and removed many concepts, but didn’t mistranslate a single concept. In contrast, machine translation tools didn’t always capture the meaning of the concepts. SMT made errors in omitting relationships between concepts, which can result in a confusing translation; RBMT mainly made errors in translating individual concepts, which can result in misleading translations (Koponen 9).
+
+        Another aspect of quality depends on the language itself – some languages, like Spanish and French, are more lexically diverse (Vanmassenhove et al. 3). A study showed that there is a measurable difference between the quality of the training data and the quality of the machine translation, which is known as algorithmic bias (Vanmassenhove et al. 8). This difference between the training data and machine translation is still unsolved and puts the efficacy of these tools into question.
+
+    ### 6.2 Linguistic Discrimination in LLMs
+
+	    With recent developments in tools like making use of LLMs such as artificial intelligence, there have also been issues related to safety and quality. Namely, LLMs can be jailbroken, or have their safety measures bypassed to get undesired responses. Jailbreaking LLMs can be classified as a form of linguistic discrimination, and an LLM having different levels of safety is known as safety discrimination (Dong et al. 3). All LLMs, open- and closed-source, have varying safety measures – Dong et al. showcases an explosive example: ChatGPT explained how to make a bomb in Gujarati but likely will not do the same in English.
+
+        Quality can vary depending on whether a language is low-resource or high-resource. Low-resource languages are typically less spoken and have limited access to new technologies, whereas high-resource languages are widely spoken, like English (Dong et al. 1). Because of this, LLMs will have unequal distributions of training data, resulting in unequal performance. The unequal performance of languages is yet another form of linguistic discrimination in LLMs. The study compares four LLMs currently accessible, including GPT-3.5 and Gemma-7b; the best performance on average was English, and the worst was Bengali. English performed a whopping 210% better than Bengali in the LLMs, reflecting the current state of linguistic discrimination (Dong et al. 8).
+    
+    ### 6.3 Gender Bias
+
+	    Machine translation tools can also contain gender bias, or when a phrase’s intended gender is ambiguous. Gender bias can come from several sources: the training data, the language, etc. If insufficient information is provided for a translation, then the tool must make assumptions about the phrase’s intended meaning. Another source of gender bias is discussed by Savoldi et al., in that language structures can affect gender bias. A language’s structure can affect how femaleness is invoked in speech – it is generally explicitly invoked, like in French (Savoldi et al. 849). However, this isn’t the only source, as gender bias can stem from technical bias. This means that the way an LLM is built can result in the loss of some words in translation, disfavoring feminine words (Savoldi et al. 850). The last source of bias discussed by Savoldi et al. comes from emergent bias, or when systems are used differently than expected. An example stems from Google Translate, when the masculine words or phrases for gender-ambiguous phrases take precedence (Savoldi et al. 850). Gender bias is present in all forms of machine translation, even the newer NMT. This, along with other forms of bias, can promote negative stereotypes and appropriation, which should be minimized as much as possible.
+
+## <ins>Section 7: Potential Solutions</ins>
+
+    ### 7.1 Teaching Ethics in Natural Language Processing
+
+        Despite all the concerns listed, there are solutions to some of these problems. The first solution that will be discussed here tackles ethics in NLP. Bender et al. gives suggestions as to how to implement ethics into curriculums, starting with analyzing technology in the field of NLP. Learning how a seemingly harmless technology can be used for harm and then designing technology so that it can’t be repurposed to cause harm is the first key step in implementing education (Bender et al. 6). Plus, discussing how bias can affect data and learning how to mitigate it, as well as maintaining privacy standards, are other suggestions given that can help reduce ethical issues.
+
+    ### 7.2 Reducing Gender Bias
+
+        There are several forms of bias in machine translation tools, but the most prevalent form is gender bias. There are numerous strategies to make a machine translation tool less biased – debiasing the LLM behind the tool or debiasing external components (Savoldi et al. 854). External components can be adding systems to the machine translation tool, and some examples will be given shortly.
+
+        There are a couple of ways to debias a model. The first solution given is to add “gender tags” to a sentence (Savoldi et al. 854). This would mean marking each sentence as masculine or feminine. While this solution may improve gender bias, it also requires more information about the gender of the speaker, which may not always be given to the machine translation tool. Another similar strategy is to combine sentences with past ones to build more context (Savoldi et al. 855). This is a more general approach than adding gender tags and requiring information from the user, and as such, it may have a slight improvement in bias. However, the benefits of debiasing models range from inconclusive to minimally effective.
+
+        Like models, there are a few ways to debias using external components. One such solution is to supply the preferred gender to the LLM to perform gender re-inflection (Savoldi et al. 856). This means that depending on the sentence provided, the LLM will either identify the gender and produce a result for that gender, or both gender translations will be provided. This offers the benefit of not requiring information from the user as to what gender the speaker is (Savoldi et al. 856). However, reducing gender bias is difficult – like stated earlier, debiasing models has an inconclusive or minimally effective benefit. Adding components adds more overhead to machine translation and has inconclusive benefits. As such, there is no one solution for gender bias (Savoldi et al. 856).
+
+    ### 7.3 Deep Learning in Machine Translation
+
+        As discussed earlier, deep learning is the technology that powers neural machine translation, the newest form of machine translation. Deep learning became the next big thing for big companies, being adopted by Google for Google Voice, among other uses (Manning 702). However, the current gains to natural language processing from deep learning have been minimal (Manning 703). This does not mean that deep learning is completely useless, though – gains are starting to be found in some deep learning systems. Deep learning can allow for “human-like generalization” and lets LLMs have a larger amount of context (Manning 703). This will likely result in better translations in neural machine translation. Understanding complex sentences both in real life and in translation requires understanding their smaller parts – and a deep learning approach has been taken to accomplish this (Manning 703). However, this hasn’t taken full advantage of deep learning, as it only uses the approach of deep learning, not deep learning itself. Regardless, there still is potential for deep learning to be useful in machine translation, which may improve quality issues found today.
+
+    ### 7.4 Mitigating Linguistic Discrimination
+
+        As discussed earlier, many LLMs, especially newer ones, have one or more forms of linguistic discrimination. This may range from safety discrimination to quality discrimination. Dong et al. proposes a solution to solve both parts of this – their approach makes use of what they call “LDFighter” (Dong et al. 9). Simply put, a query like a sentence is translated into multiple languages and then inputted into an LLM. This will result in multiple responses, in which the similarity between these answers is compared. The most similar answer is chosen as the correct answer and is sent back as the response. Their testing showed that their proposed solution is effective with multiple newer LLMs tested like Gemini-pro and worked best with at least three languages (Dong et al. 9).
+
+## <ins>Section 8: The Discussion</ins>
+
+    ### 8.1 Weighing the Benefits and Ethical Concerns
+    
+        In this section, we will look at several real-world uses of machine translation and common opinions in the industry. As shown earlier, machine translation is commonly used in high-risk settings like hospitals and even the judicial system to translate works quickly and communicate easily (Mehandru et al. 2017). Errors in these settings can cause severe implications, as a medical sentence or important document may be processed incorrectly. Vieira et al. gives an example of this – “your child is fitting” would be translated to “your child is dead” in Swahili (Vieira et al. 1516). The danger of using machine translation in healthcare is known, but the tools are perceived as the only alternative (Vieira et al. 1519). In law, machine translation can significantly influence court cases and other decisions, yet the understanding of machine translation is even less than in healthcare (Vieira et al. 1525). In general, most people don’t know how tools like Google Translate work or that their translations are often inaccurate, and typically take it as a credible source or reliable translation 100% of the time, even though it isn’t. This can be a dangerous precedent.
+
+        Dong et al. furthers this conservation by discussing the variance of quality and safety. As discussed previously in Linguistic Discrimination in LLMs, the models that power machine translation tools can have significant variance based on language, mainly whether a language is low- or high-resource. Unequal amounts of training data will result in differing performances and varying safety measures, making the use of machine translation tools in high-risk settings even more dangerous, especially if the language used is a less spoken one (Dong et al. 8). Despite all these negatives, there still is a bright side to it.
+
+        Even with all the issues with LLMs, machine translation has allowed for automatic translation of low-resource languages like indigenous ones (Mager et al. 1). Low-resource languages are generally also endangered and are used by smaller communities as part of their identity, so machine translation can help fill the gaps (Mager et al. 1). In a survey conducted by Mager et al. with indigenous people and people in linguistics, most were in favor of machine translation with one caveat – research should be done in collaboration with the community of the language (Mager et al. 2). Their interviews also showed that open access was valued highly by people. The data collected states that about three-quarters of those surveyed had no restrictions on their sharing their native language, which means that even though most people will likely be fine with research, you cannot assume that everyone will be fine with it (Mager et al. 6). The study recommends three practices: inform the community of the study and discuss details, show respect by understanding the community’s history, and distribute the work to the community (Mager et al. 3).
+
+        Some other angles to consider is crowdsourcing and politics. Like research in NLP, machine translation tools can obtain data through crowdsourcing (Mager et al. 4). These crowdsourcing services like MTurk pay very little, raising ethical concerns. This can also add biases like gender bias, and although it can be somewhat mitigated with additional processes, it is not ideal. In terms of politics, people’s culture can be altered through translation. Mager et al. discusses a historical example of imperialism, where the colonizers flood a people’s culture with foreign culture and language. While this isn’t as much of an issue now, some have called for requiring linguistics research to provide benefits to the communities.
+
+        Now that we’ve looked at some real-world examples and further discussed ethics, let’s analyze some common opinions on machine translation. End users of machine translation tools like Google Translate will generally find these tools as a useful resource, as they can be used to convey meaning in other languages. Most people will likely be translating to higher-resource languages, meaning there is less of a translation issue than low-resource languages. In addition, these tools are free or cheap to access, resulting in mass adoption. Ethicists may have a different stance, arguing some or many of the concerns discussed throughout this paper like bias (particularly gender bias), accuracy, quality compared to human translators, etc. People in the translation industry are likely more split, with some or many aware of the issues of machine translation. In addition, identifying issues coming from machine translation versus regular translation has become more difficult thanks to new technologies and tools. A debate about the ethics of using machine translation tools is still ongoing today – while these tools are useful for many people, that does not invalidate the ethical concerns.
+
+## <ins>Section 9: Conclusions</ins>
+
+    ### 9.1 The Value of Machine Translation Tools
+	
+        After taking in all the information and data gathered, I still believe that machine translation tools are a net positive to society. Despite the occasional inaccuracies in translation, as well as the issues mentioned throughout the paper, it still allows a greater understanding of different people, cultures, societies, etc. This, coupled with the low barrier to entry, allows the dispersion of cultures, which is needed in the increasingly homogenous modern world. However, more needs to be done to safeguard against unethical use of machine translation tools and reduce biases, as well as address the numerous issues with newer LLMs, such as safety and quality differences.
+
+    ### 9.2 Future Research
+	    
+        This paper has some limitations, the main one being that most of the paper focuses only on English. Future research should focus on issues in different languages to compare the ethical issues in English to other languages, particularly in LLMs. In addition, the paper briefly touched on practical benefits, so more research on a comprehensive list of practical benefits is needed. Finally, future research should focus on emerging and more advanced computational-based tools like AI to evaluate progress made, if any, on solving these ethical issues.
+
+## <ins>References</ins>
+
+Bender, Emily M., et al. “Integrating Ethics into the NLP Curriculum.” ACL Anthology, 2020, aclanthology.org/2020.acl-tutorials.2.pdf. Accessed 27 Mar. 2024.
+
+D’Arcy, Alexandra, and Emily M. Bender. “Ethics in Linguistics.” Annual Review of Linguistics, Annual Reviews, 17 Jan. 2023, www.annualreviews.org/content/journals/10.1146/annurev-linguistics-031120-015324. Accessed 27 Mar. 2024.
+
+Deng, Xinjie, and Zhonggen Yu. “A Systematic Review of Machine-Translation-Assisted Language Learning for Sustainable Education.” MDPI, Multidisciplinary Digital Publishing Institute, 22 June 2022, www.mdpi.com/2071-1050/14/13/7598. Accessed 12 Apr. 2024.
+
+Dong, Guoliang, et al. “Evaluating and Mitigating Linguistic Discrimination in Large Language Models.” arXiv, 29 Apr. 2024, arxiv.org/pdf/2404.18534. 
+
+Fort, Karen, et al. “Amazon Mechanical Turk: Gold Mine or Coal Mine?” ACL Anthology, 2011, aclanthology.org/J11-2010.pdf. Accessed 3 May 2024.
+
+Koponen, Maarit. “Assessing Machine Translation Quality with Error Analysis.” SKTL, www.sktl.fi/@Bin/40701/Koponen_MikaEL2010.pdf. Accessed 5 Apr. 2024. 
+
+Leidner, Jochen L., and Vassilis Plachouras. “Ethical by Design: Ethics Best Practices for Natural Language Processing.” ACL Anthology, aclanthology.org/W17-1604.pdf. Accessed 5 Apr. 2024.
+
+Liu, Kanglong, et al. “Sustainability and Influence of Machine Translation: Perceptions and Attitudes of Translation Instructors and Learners in Hong Kong.” MDPI, Multidisciplinary Digital Publishing Institute, 24 May 2022, www.mdpi.com/2071-1050/14/11/6399. 
+
+Mager, Manuel, et al. “Ethical Considerations for Machine Translation of Indigenous Languages: Giving a Voice to the Speakers.” arXiv, ar5iv.labs.arxiv.org/html/2305.19474. Accessed 5 Apr. 2024. 
+
+Manning, Christopher D. “Computational Linguistics and Deep Learning.” MIT Press, MIT Press, 1 Dec. 2015, direct.mit.edu/coli/article/41/4/701/1512/Computational-Linguistics-and-Deep-Learning. Accessed 27 Mar. 2024.
+
+Mehandru, Nikita, et al. “Reliable and Safe Use of Machine Translation in Medical Settings: Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency.” ACM Other Conferences, 1 June 2022, dl.acm.org/doi/abs/10.1145/3531146.3533244. Accessed 12 Apr. 2024.
+
+Ramírez-Polo, Laura, and Chelo Vargas-Sierra. “Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training.” MDPI, Multidisciplinary Digital Publishing Institute, 24 Mar. 2023, www.mdpi.com/2226-471X/8/2/93. Accessed 5 Apr. 2024.
+
+Sakre, Mohammed M. “Machine translation status and its effect on business.” EKB, Vol. 10, Journal of the ACS, May 2019, journals.ekb.eg/article_157421_a3f41c62d770e30e4544ae05052dac6c.pdf. Accessed 12 Apr. 2024.
+
+Savoldi, Beatrice, et al. “Gender Bias in Machine Translation.” MIT Press Direct, 18 Aug. 2021, direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00401/106991/Gender-Bias-in-Machine-Translation. Accessed 5 Apr. 2024.
+
+Thieltges, Andree, et al. “The Devil’s Triangle: Ethical Considerations on Developing Bot Detection Methods.” Association for the Advancement of Artificial Intelligence, AAAI, 2016, cdn.aaai.org/ocs/5865/5865-29786-1-PB.pdf. Accessed 3 May 2024. 
+
+Vanmassenhove, Eva, et al. “Machine Translationese: Effects of Algorithmic Bias on Linguistic Complexity in Machine Translation.” arXiv, arxiv.org/pdf/2102.00287.pdf. Accessed 5 Apr. 2024.
+
+Vieira, Lucas Nunes, et al. “Understanding the Societal Impacts of Machine Translation: A Critical Review of the Literature on Medical and Legal Use Cases.” Taylor & Francis Online, 16 June 2020, www.tandfonline.com/doi/pdf/10.1080/1369118X.2020.1776370. Accessed 12 Apr. 2024.
+
+Wang, Haifeng, et al. “Progress in Machine Translation.” ScienceDirect, 14 July 2021, www.sciencedirect.com/science/article/pii/S2095809921002745. Accessed 9 Apr. 2024.
